@@ -1,1 +1,16 @@
+We use geometric transformations to modify the spatial arrangement of pixels in an image.
+Since they are applied to every pixel in the image—or point in 2D for a grayscale image—these changes are known as point transformations. They are linear since matrix multiplications (and additions) can be used to do the transformation.
+
+There are four classes of linear transfomations as follows:
+1.Euclidean transformation/isometry
+2.Similarity transformation
+3.Affine transformation
+4.Homography transformation
+
+The Euclidean is a special case of the affine:- see fig2.1
+
+.Geometric transformations of digital images consist of two basic operations: 
+	1. Spatial transformation of coordinates. 
+	2. Intensity interpolation that assigns intensity values to the spatially transformed 
+	   pixels. 
 
